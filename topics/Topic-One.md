@@ -31,6 +31,8 @@ Just as with datatypes, Python possesses differing type of "operators" that can 
 Python uses certain logical structures that organize, and stack operators to further parse data, these include:
 1. Functions: This structure represents a chuck of cde within a separate "scope" that is named for later use and reuse, values are assumed to exist and can be used within the function and values from within the function can be passed back out of the function, then when the function is called (used), those assumed objects are given values from other data so that the operators within the function can be applied to the real data
 2. Loops: This structure allows for the script set within the loop to be repeated, this repeat can be constrained to a set number of times, or it can repeat until a condition is met.
+3. Conditionals: This structure allows for a chunk of code to be executed conditionally, this means that only if a condition is met, `if 1 == 1:`, will the code within the statement's scope be executed.
+4. Try Statements: This structure allows for the interpreter to "try" a chunk of code, if the interpreter encounters and error, there must be a backup "except" statement to execute without triggering an error
 
 ##### Practice Problems
 ###### PP1 - Directions:    
